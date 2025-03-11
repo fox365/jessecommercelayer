@@ -5,7 +5,7 @@
     "demo-store-core/packages/*"
   ],
   "scripts": {
-    "dev": "dotenv -c local npm run dev -- -ws --if-present",
+    "dev": "dotenv -c local npm run dev -- -ws --if-present -p 8080",
     "local:build": "dotenv -c local npm run build -- -w demo-store-core/packages/website",
     "local:start": "dotenv -c local npm run start -- -w demo-store-core/packages/website",
     "local:serve": "dotenv -c local npm run local:serve -- -ws --if-present",
